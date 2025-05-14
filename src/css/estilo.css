@@ -60,7 +60,7 @@ body {
     background-color: #b77d6d;
     transform: translateY(-2px);
   }
-  
+
   .right {
     flex: 1 1 400px;
     background-color: #1a1816;
@@ -74,4 +74,17 @@ body {
     height: 100%;
     object-fit: cover;
     opacity: 0.95;
+  }
+  @media (max-width: 768px) {
+    .layout {
+      flex-direction: column;
+    }
+
+    .right {
+      height: 250px;
+    }
+
+    .left {
+      padding: 30px 20px;
+    }
   }
