@@ -37,3 +37,26 @@ body {
     margin-bottom: 20px;
     letter-spacing: 0.5px;
   }
+  .left p {
+    font-size: 1.1rem;
+    color: #ccc2b8;
+    margin-bottom: 18px;
+    line-height: 1.6;
+  }
+
+  .left a {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #a16c5f;
+    color: #fffaf2;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 10px;
+  }
+
+  .left a:hover {
+    background-color: #b77d6d;
+    transform: translateY(-2px);
+  }
