@@ -43,3 +43,12 @@ while (continuar === "sim") {
   var tipoAtual = validarEntrada("Digite o tipo do vinho (Tinto, Branco, Rosé):");
   var safraAtual = parseInt(validarEntrada("Digite o ano da safra:"));
   var estoqueAtual = parseInt(validarEntrada("Digite a quantidade em estoque:"));
+  var estoqueBaixo = verificarEstoqueBaixo(estoqueAtual);
+  if (estoqueBaixo) {
+    totalEstoqueBaixo++;
+  }
+
+  if (safraAtual < menorSafra) {
+    menorSafra = safraAtual;
+    vinhoMaisAntigo = nomeAtual;
+  }
