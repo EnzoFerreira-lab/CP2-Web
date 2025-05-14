@@ -55,3 +55,6 @@ while (continuar === "sim") {
    var classificacao = classificarSafra(safraAtual);
   alert("Cadastro realizado com sucesso!");
   exibirDados(nomeAtual, tipoAtual, safraAtual, estoqueAtual, classificacao);
+
+   continuar = prompt("Deseja cadastrar outro vinho? (sim / nao)").toLowerCase();
+}
