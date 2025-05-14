@@ -18,3 +18,12 @@ function validarEntrada(mensagem) {
     }
     return false;
   }
+  function classificarSafra(ano) {
+  if (ano >= 2020) {
+    return "Vinho jovem";
+  } else if (ano >= 2015) {
+    return "Vinho amadurecido";
+  } else {
+    return "Vinho antigo";
+  }
+}
