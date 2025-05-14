@@ -10,3 +10,11 @@ function validarEntrada(mensagem) {
     }
     return entrada;
   }
+  function verificarEstoqueBaixo(quantidade) {
+    if (quantidade < 5) {
+      alert("Atenção: estoque baixo!");
+      console.log("⚠️ ESTOQUE BAIXO");
+      return true;
+    }
+    return false;
+  }
