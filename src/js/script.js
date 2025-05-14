@@ -27,3 +27,12 @@ function validarEntrada(mensagem) {
     return "Vinho antigo";
   }
 }
+function exibirDados(nome, tipo, safra, estoque, classificacao) {
+  alert("Veja os detalhes do vinho no console.");
+  console.log("===============================");
+  console.log("Nome do vinho: " + nome);
+  console.log("Tipo: " + tipo);
+  console.log("Safra: " + safra + " (" + classificacao + ")");
+  console.log("Quantidade em estoque: " + estoque);
+  console.log("===============================");
+}
