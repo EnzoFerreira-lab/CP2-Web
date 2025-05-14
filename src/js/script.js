@@ -38,3 +38,8 @@ function exibirDados(nome, tipo, safra, estoque, classificacao) {
 }
 while (continuar === "sim") {
     totalCadastros++;
+
+  var nomeAtual = validarEntrada("Digite o nome do vinho:");
+  var tipoAtual = validarEntrada("Digite o tipo do vinho (Tinto, Branco, Rosé):");
+  var safraAtual = parseInt(validarEntrada("Digite o ano da safra:"));
+  var estoqueAtual = parseInt(validarEntrada("Digite a quantidade em estoque:"));
