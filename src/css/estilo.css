@@ -26,3 +26,14 @@ body {
     border: 1px solid #3a3432;
   }
   
+  .left {
+    flex: 1 1 400px;
+    padding: 50px 40px;
+  }
+
+  .left h1 {
+    font-size: 2.6rem;
+    color: #d3bfa4;
+    margin-bottom: 20px;
+    letter-spacing: 0.5px;
+  }
