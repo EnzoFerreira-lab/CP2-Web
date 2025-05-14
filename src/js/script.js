@@ -36,3 +36,5 @@ function exibirDados(nome, tipo, safra, estoque, classificacao) {
   console.log("Quantidade em estoque: " + estoque);
   console.log("===============================");
 }
+while (continuar === "sim") {
+    totalCadastros++;
