@@ -7,10 +7,10 @@ Sistema básico para cadastro e análise de vinhos artesanais da Vinheira Agnell
 - Guilherme Eduardo de Lima - 566045
 - Guilherme de Paula Kuskowski - 562471
 - Matheus Gomes Stefaneli - 562277
-- 
+
 
 ## Link do GitHub Pages
-[🔗 Acessar Página](https://github.com/EnzoFerreira-lab/CP2-Web)
+[🔗 Acessar Página](https://enzoferreira-lab.github.io/vinheria-agnello-checkpoint02/)
 
 
 
